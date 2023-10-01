@@ -1,0 +1,125 @@
+body{
+     background-color:#A6D0DD;
+     
+}
+
+/* Classes */
+.profile-pic{
+     width: 150px;
+     height:  150px;
+     border-radius: 75%;
+}
+
+.name{
+     font-size: 1rem;
+ 
+}
+
+.name p{
+     line-height: 10px;
+}
+
+/* Educational-Background */
+
+
+.Educational-background{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.Profile{
+     border: 1px solid black;
+}
+
+/* Technical-skills */
+
+
+.Skills{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     line-height: 1.5rem;
+}
+
+.Skills ul{
+     list-style-type: none;
+}
+
+.Projects {
+     text-align: center;
+}
+
+.college-project{
+     text-align: center;
+}
+
+.icons{
+     padding: 20px;
+}
+
+.bottom-content{
+     display: flex;
+     justify-content: center;
+}
+
+
+/* id's */
+#College-Project p{
+     font-size: 1rem;
+}
+
+#insta-icon{
+     padding: 20px;
+}
+
+#mail-icon{
+     padding: 20px;
+}
+
+#github-icon{
+     padding: 20px;
+}
+
+#tel-icon{
+     padding: 20px;
+}
+
+/* tags */
+td{
+     padding: 10px;
+     /* border: 1px  solid rgb(255, 255, 255); jst Chceck what happens */
+}
+
+
+/* this applies for all hr tags */
+hr{
+     height:0.5px;
+     width:  5%;
+     color: black;
+     border-top: dotted 5px;
+}
+
+table{
+     border-collapse: collapse;
+     
+}
+
+a{
+     color: black;
+     text-decoration: none;
+}
+
+a:hover{
+     color: #8B1874;
+     font-weight: bolder;
+     height: 50px;
+     width: 50px;
+}
+
+h2{
+     text-align: center;
+     font-style: italic;
+}

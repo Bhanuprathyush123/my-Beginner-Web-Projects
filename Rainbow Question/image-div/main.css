@@ -1,0 +1,47 @@
+body{
+     display: grid;
+     place-items: center;
+     margin-top: 110px;
+}
+
+
+.main-container{
+     width: 40%;
+     height: 75vh;
+     background-color: black;
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+     border-bottom-left-radius: 40px;
+     border-bottom-right-radius: 40px;
+     transform: rotate(30deg);
+}
+
+
+.inner-container{
+     width: 50%;
+     height: 50vh;
+     background-color: red;
+     border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+     border-bottom-left-radius: 40px;
+     border-bottom-right-radius: 40px;
+     transform: rotate(50deg);
+}
+
+div img{
+     width: 250px;
+     height: auto;
+     padding-right: 40px;
+     padding-top: 10px;
+     transform: rotate(277deg);
+}
+
+#progress{
+     width: 50%;
+     /* border: 1px solid black;
+     color: aquamarine; */
+     
+}

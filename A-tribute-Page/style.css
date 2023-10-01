@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{ 
+     margin: 0;
+     padding: auto;
+     box-sizing: border-box;
+}
+
+div .nav-container{
+     display: flex;
+     flex-direction: row;
+}
+
+nav{
+     background-color:hsl(0, 3%, 17%);
+     padding-bottom: 10px ;
+     padding-top: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+}
+
+
+nav a{
+     text-decoration: none;
+     color: whitesmoke;
+     padding: 10px;
+     
+}
+
+nav a:hover{
+     color: aqua;
+     font-size: 15px;
+}
+
+li{
+     list-style: none;
+}
+
+.container{
+     min-height: 500px;
+     background-image: url('https://e0.pxfuel.com/wallpapers/248/132/desktop-wallpaper-lessons-from-the-drama-at-ratan-tata-s-company.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+     font-family: 'Architects Daughter', cursive;
+     font-weight: 400;
+     font-size: medium;
+     color: #fff;
+}
+
+h1{
+     padding:200px 0 0 120px;
+     font-size: 40px;
+}
+
+.table{
+     font-family: 'Pacifico', cursive ;
+     background-color: hsla(0, 0%, 100%, 0);
+     /* border: 2px solid black; */
+     padding: 20px 20px;
+     line-height: 1.5em;
+     word-spacing: 0.5rem;
+}
+
+.table img{
+     width: 250px;
+     height: 250px;
+}
+
+.early-life{
+     min-height: 500px;
+     background-image: url('https://static.theceomagazine.net/wp-content/uploads/2021/12/18073802/ratan-tata-3300x1479-1-1100x493.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+     filter: blur(1);
+     -webkit-filter: blur(0.5);
+     padding: 20px;
+     font-family: 'Pacifico', cursive;
+     line-height: 1.5em;
+     word-spacing: 0.5rem;
+     color: azure;
+}
+
+footer{
+     margin: 20px;
+}
+
+#footer div{
+     background-color: #fff;
+}
+
+#footer a{
+     padding-left: 130px;
+     text-decoration: none;
+}
+
+
+footer a:hover{
+     color: #000;
+}

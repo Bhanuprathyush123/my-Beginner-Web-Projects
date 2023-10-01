@@ -1,0 +1,83 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     background-color:gainsboro;
+}
+
+.main-container{
+     display: grid;
+     grid-template-rows: repeat(0.5, minmax(150px, 1fr));
+     gap: 0.5rem;
+     grid-template-areas: "hr hr hr "
+                           "me  ma ma "
+                           "fo fo fo";
+}
+
+.main-head{
+     grid-area: hr;
+     width: 100%;
+     min-height: 10vh;
+     display: grid;
+     place-content: center;
+     background-color: #af72e9;
+}
+
+.main-head:hover{
+     opacity: 0.9;
+     cursor: pointer;
+     background-color: #fff;
+}
+
+
+.nav-bar{
+     padding: 70px;
+     padding-bottom: 500px;
+     grid-area: me;
+     width: 20%;
+     min-height: 80xvh;
+     display: grid;
+     /* background-color: #b9f0de; */
+     place-content: center;
+}
+
+.nav-bar a{
+     padding: 30px;
+     text-decoration: none;
+     color: #8400ff;
+}
+
+.nav-bar a:hover{
+     color: #333;
+     text-decoration: underline;
+     opacity: 0.6;
+}
+
+.content{
+     display: grid;
+     grid-area: ma;
+     width: 100%;
+     min-height: 80vh;
+     /* background-color: blanchedalmond; */
+     padding-right: 10px;
+}
+
+.content p{
+     column-count: 2;
+     column-gap: 1.5rem;
+     padding-right: 80px;
+     word-spacing: 0.5rem;
+     line-height: 2rem;
+}
+
+.contact-menu{
+     display: grid;
+     grid-area: fo;
+     width: 100%;
+     min-height: 150px;
+     background-color: burlywood;
+     place-content: center;
+}

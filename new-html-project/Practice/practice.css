@@ -1,0 +1,39 @@
+body{
+     font-size: 10px;
+     color:darkgrey;
+}
+
+h1{
+     font-family: 'Pacifico', cursive;
+}
+#px-size{
+     font-size: 15px;
+     font-family: 'Lobster', cursive;
+}
+
+#pt-size{
+     font-size: 15pt;
+     font-family: 'Kalam', cursive;
+}
+
+#em-size{
+     font-size: 2em;
+     font-family: 'Bebas Neue', sans-serif;
+}
+
+#rem-size{
+     font-size: 2rem;
+     font-family: 'Arvo', serif;
+}
+
+#wording{
+     font-size: large;
+     font-family: 'Architects Daughter', cursive;
+}
+
+/* font-family: 'Architects Daughter', cursive;
+font-family: 'Arvo', serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Kalam', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive; */

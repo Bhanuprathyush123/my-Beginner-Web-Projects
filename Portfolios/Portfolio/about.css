@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+body{
+     background-color: #F0EDD4;
+     margin: 0 0 0 0;
+     border: 0 0 0 0;
+}
+
+div{
+     width:1000px;
+     height:500xp;
+     display: flex;
+     justify-content: center;
+     padding-left: 150px;
+     padding-top: 50px;
+     
+}
+
+.Nav-back a{
+     color: #18122B;
+     text-decoration: none;
+     font-size: 1.5rem;
+     
+}
+
+#About-text{
+     font-size: 1.25rem;
+     font-family: 'Lato',sans-serif;
+     /* text-align: center; */
+}
+
+#download i{
+     font-size: 3rem;
+}
+
+#download p{
+     font-size: 1.25rem;
+     font-weight: bolder;
+     font-family: 'Lato';
+     border: 1px solid black;
+     border-radius: 10px;
+}
+
+.btn{
+     width: 200px;
+     border-radius: 10px;
+     background-color:#7286D3;
+     cursor: pointer;
+}
+
+.btn:hover{
+     background-color: aqua;
+}

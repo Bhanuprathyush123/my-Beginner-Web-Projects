@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.navbar hr{
+     width: 85%;
+     border: 1px solid #f1f1f1;
+}
+
+.navbar{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.navbar a{
+     color: azure;
+}
+
+.navbar a:hover{
+     background-color: azure;
+     color: black;
+     border: 1px solid black;
+     border-radius: 100px;
+}
+
+.main-container{
+     /* margin-bottom: 5px; */
+     width: 100%;
+     height: auto;
+     background-image: linear-gradient(to  left , #2825258a,#000000f7);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     border-bottom: 2px solid black;
+
+}
+
+.my-img img{
+     width: 100%;
+     height: auto;
+     padding: 50px;
+     border-radius: 100%;
+     box-shadow: balck;
+}
+
+.my-name h1 {
+     font-family: 'Poppins', sans-serif;
+     font-size: 2.5rem;
+     font-weight: bolder;
+     color: aliceblue;
+}
+
+.my-name h2{
+     font-family: 'Roboto', sans-serif;
+     font-size: 1rem;
+     font-weight: lighter;
+     color: aliceblue;
+}
+
+/* resume-sec */
+
+/* .resume-sec{
+     margin-top: 5px;
+} */
+
+.resume-sec h2{
+     margin-left: 50px;
+     margin-bottom: 40px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 2rem;
+     font-weight: lighter;
+}
+
+.resume-sec p{
+     margin-left: 10px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 1rem;
+     font-weight: lighter;
+}
+
+.declaration p{
+     width: 40%;
+     margin-left: 10px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 1rem;
+     font-weight: bold;
+}
+
+
+.resume-pic img{
+     width: 200px;
+     height: auto;
+     padding: 10px ;
+     border-radius: 100%;
+}
+
+.resume-sec hr{
+     width: 100%;
+     
+     color: black;
+}
+
+/* resume-about */
+
+.resume-about h4{
+     padding-left: 10px;
+}
+
+.Education{
+     padding-left: 30px;
+     padding-bottom: 170px;
+}
+
+.projects{
+     padding-left: 30px;
+}
+
+.Skills{
+     padding-left: 30px;
+}
+
+.personal-skills{
+     padding-left: 30px;
+     padding-bottom: 180px;
+}
+
+
+/* about sec */
+.about-sec{
+     background-color: #CDC2AE;
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+}
+.about-sec h2{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.about-sec p{
+     font-family: 'Roboto', sans-serif;
+     padding: 20px;
+     word-spacing: 2px;
+     line-height: 2.5rem;
+}
+
+/* footer */
+.footer{
+     width: 100%;
+     min-height: 20vh;
+     margin: 0;
+     text-align: center;
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     /* border-top: 2px solid black; */
+}
+.footer a{
+     text-decoration: none;
+     color: black;
+     padding: 20px;
+}
+
+.footer a:hover{
+     color: #068DA9;
+}
+
+footer .back-top:hover{
+     color: red;
+}
+
+/* Registration Page CSS */
+html .reg-container{
+     background-image: linear-gradient(to  left, #99DBF5,#A7ECEE);
+     width: 100%;
+     height: 100vh;
+}
+
+.reg-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+div .form-container{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 50px;
+     padding-bottom: 20px;
+}
+
+.form-container label{
+     padding: 5px;
+}
+
+.form-container input{
+     display: block;
+     padding: 10px;
+     border: 1px solid black;
+     border-radius: 10px;
+}
+
+.button-container {
+     padding: 10px;
+     /* padding-top: 20px; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.button-container button{
+     width: 100px;
+     padding: 5px;
+     border-radius: 10px;
+     background-color: aqua;
+}
+
+
+.button-container button a{
+     text-decoration: none;
+     color: snow;
+     font-weight: lighter;
+}
+
+
+/* .button-container button:hover{
+     background-color: black;
+}
+
+.button-container button a:hover{
+     color: whitesmoke;
+} */
+
+.singin{
+     display: flex;
+}
+
+.singin p{
+     font-family: 'Roboto', sans-serif;
+     font-weight: lighter;
+     color: black;
+     padding-top: 20px;
+     
+}
+
+.singin button{
+     width: 100px;
+     height: 50px;
+     border-radius: 10px;
+}
+
+.singin button a{
+     text-decoration: none;
+     color: snow;
+     font-weight: lighter;
+}
+
+/* .singin button:hover{
+     background-color: black;
+}
+
+.singin button a:hover{
+     color: whitesmoke;
+} */
+
+.outer{
+     width: 30%;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 2px solid black;
+     border-radius: 20px;
+}
+
+/* SignUp */
+body{
+     background-image: linear-gradient(top left, #9AC5F4,#99DBF5);
+}
+
+.main{
+     margin: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+/* .outer{
+     width: 100%;
+} */
+
+.signup{
+     width: 80%;
+     padding-top: 50px;
+}
+
+.signup label {
+     
+     padding: 5px;
+}
+
+.signup input{
+     padding: 10px;
+}

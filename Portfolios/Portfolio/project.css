@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+
+body{
+     background-color: #FEA1A1;
+     font-family: 'Lato',sans-serif;
+}
+
+h2 {
+     text-align: center;
+     font-size:2rem;
+}
+
+h3{
+     text-align: center;
+     font-size: 1rem;     
+}
+
+.Nav-back a{
+     color: #18122B;
+     text-decoration: none;
+     font-size: 1.5rem;
+}
+
+.Nav-back a:hover{
+     color: azure;
+}
+
+.Project1  p h3{
+     font-weight: bold;
+}
+
+hr{
+     height:0.5px;
+     color: black;
+     border-top: dotted 5px;
+    
+}
+
+.btn{
+     width: 200px;
+     border-radius: 10px;
+     cursor: pointer;
+     background-color: #99A98F;
+     align-items: center;
+}
+
+.Personal-project p{
+     text-align: center;
+}
+
+
+.btn:hover{
+     background-color: aqua;
+}
+
+.download{
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+}
+
+ .user .admin{
+     width: 200px;
+     
+}
+
+.home{
+     width: 80px;
+}
